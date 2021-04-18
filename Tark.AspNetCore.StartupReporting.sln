@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tark.AspNetCore.StartupReporting.Web", "Tark.AspNetCore.StartupReporting.Web\Tark.AspNetCore.StartupReporting.Web.csproj", "{6F16B31A-E40C-4E35-A04F-095187A16E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tark.AspNetCore.StartupReporting", "Tark.AspNetCore.StartupReporting\Tark.AspNetCore.StartupReporting.csproj", "{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F16B31A-E40C-4E35-A04F-095187A16E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F16B31A-E40C-4E35-A04F-095187A16E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F16B31A-E40C-4E35-A04F-095187A16E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F16B31A-E40C-4E35-A04F-095187A16E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E57A557E-0543-4760-A403-A844552C1126}
+	EndGlobalSection
+EndGlobal
