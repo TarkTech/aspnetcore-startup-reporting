@@ -603,4 +603,10 @@ fabric.properties
 # Additional files built by Visual Studio
 *.tlog
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio,rider,csharp
+### Cake ###
+tools/*
+!tools/packages.config
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudio,rider,csharp,cake
+
+artifacts/

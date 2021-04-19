@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tark.AspNetCore.StartupRepo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tark.AspNetCore.StartupReporting", "Tark.AspNetCore.StartupReporting\Tark.AspNetCore.StartupReporting.csproj", "{B84B47BD-58A9-4C8C-90FB-1F35E07BD897}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{1B7AEDC0-F8BD-410C-AE43-3BAE0E493DEB}"
+ProjectSection(SolutionItems) = preProject
+	build.cake = build.cake
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
