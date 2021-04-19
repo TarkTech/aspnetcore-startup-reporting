@@ -17,10 +17,6 @@ namespace Tark.AspNetCore.StartupReporting
             {
                 configuration = new StartupMiddlewareConfiguration();
             }
-            if (String.IsNullOrWhiteSpace(configuration.ReportRoute))
-            {
-                configuration.ReportRoute = "/api/startup-status";
-            }
 
             services.AddSingleton(configuration);
             return services.AddSingleton<StartupReportingService>();
