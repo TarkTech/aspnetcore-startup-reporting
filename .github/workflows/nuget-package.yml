@@ -1,0 +1,25 @@
+name: Nuget Package
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    env:
+      NUGET_KEY: ${{ secrets.NUGET_API_KEY }}
+      BUILD_NUMBER: ${{ github.run_number }}
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.x
+    - name: Restore Tools
+      run: dotnet tool restore
+    - name: Build & Publish Package
+      run: dotnet cake
