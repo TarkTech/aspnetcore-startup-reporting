@@ -23,3 +23,7 @@ jobs:
       run: dotnet tool restore
     - name: Build & Publish Package
       run: dotnet cake
+    - uses: actions/upload-artifact@v2
+      with:
+        name: packages
+        path: artifacts/*.*nupkg
