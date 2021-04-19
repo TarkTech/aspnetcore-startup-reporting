@@ -1,7 +1,7 @@
 var nugetApiKey = EnvironmentVariable<string>("NUGET_KEY", "");
 var nugetSource = EnvironmentVariable<string>("NUGET_SOURCE", "https://api.nuget.org/v3/index.json");
 var buildNumber = EnvironmentVariable<string>("BUILD_NUMBER", "0");
-var target = Argument("target", "Package");
+var target = Argument("target", "PublishPackage");
 
 var solution = "Tark.AspNetCore.StartupReporting.sln";
 var package = "Tark.AspNetCore.StartupReporting/Tark.AspNetCore.StartupReporting.csproj";
