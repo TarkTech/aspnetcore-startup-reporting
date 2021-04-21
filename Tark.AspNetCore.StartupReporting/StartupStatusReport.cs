@@ -7,13 +7,13 @@ namespace Tark.AspNetCore.StartupReporting
 {
     public class StartupStatusReport
     {
-        public StartupStatusReport(StartupStatus statusReport, IEnumerable<Dependency> dependencies)
+        public StartupStatusReport(StartupStatus status, IEnumerable<Dependency> dependencies)
         {
             this.Dependencies = dependencies;
-            this.StatusReport = statusReport;
+            this.Status = status;
         }
 
         public IEnumerable<Dependency> Dependencies { get; private set; }
-        public StartupStatus StatusReport { get; private set; }
+        public StartupStatus Status { get; private set; }
     }
 }
