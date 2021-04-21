@@ -22,7 +22,7 @@ jobs:
     - name: Restore Tools
       run: dotnet tool restore
     - name: Build Package
-      run: dotnet cake --target=Build
+      run: dotnet cake
     - uses: actions/upload-artifact@v2
       with:
         name: packages
